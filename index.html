@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="showMore" onclick="toggleGames()">Click Here</button>
+    <div class="games active">
+        <a href="./2048 edited/index.html">2048</a>
+        <a href="./Bubble-Shooter-HTML5/bubble-shooter.html">Bubble Shooter</a>
+        <a href="./tic  tac toe game/index.html">tic Tak Toe</a>
+    </div>
+    </div>
+</body>
+<script>
+    let btn =document.getElementById("showMore")
+    function toggleGames (){
+        // console.log(document.querySelector(".games").classList)
+     document.querySelector(".games").classList.toggle("active");
+    }
+</script>
+</html>
